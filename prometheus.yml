@@ -1,0 +1,4 @@
+﻿scrape_configs:
+  - job_name: 'collector'
+    static_configs:
+      - targets: ['collector:8889']
